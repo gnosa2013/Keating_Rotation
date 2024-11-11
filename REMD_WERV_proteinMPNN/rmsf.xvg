@@ -1,0 +1,51 @@
+# This file was created Thu Nov  7 01:25:22 2024
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2018.4 (-:
+# 
+# Executable:   /home/software/gromacs/2018.4/bin/gmx_mpi
+# Data prefix:  /home/software/gromacs/2018.4
+# Working dir:  /nobackup1c/users/gnosa
+# Command line:
+#   gmx_mpi rmsf -s remd0.tpr -f 0_trajout.xtc -n CA.ndx -o rmsf.xvg -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+    2   0.1567
+   16   0.1126
+   23   0.0786
+   44   0.0616
+   54   0.0785
+   70   0.0940
+   77   0.1342
+  101   0.1317
+  121   0.2123
+  127   0.2362
+  137   0.2034
+  164   0.1839
+  170   0.0849
+  188   0.0997
+  194   0.1186
+  215   0.1443
+  239   0.1377
+  251   0.0876
+  278   0.0700
+  284   0.0581
+  294   0.0840
+  304   0.0829
+  328   0.0833
+  340   0.0888
+  351   0.0666
+  363   0.0569
+  381   0.0958
+  387   0.1486
+  394   0.1234
+  404   0.0754
+  414   0.0629
+  433   0.0513
+  443   0.0983
+  467   0.1876
