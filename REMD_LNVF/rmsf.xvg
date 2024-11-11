@@ -1,0 +1,51 @@
+# This file was created Sun Oct 27 10:36:51 2024
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2018.4 (-:
+# 
+# Executable:   /home/software/gromacs/2018.4/bin/gmx_mpi
+# Data prefix:  /home/software/gromacs/2018.4
+# Working dir:  /pool001/gnosa
+# Command line:
+#   gmx_mpi rmsf -s remd0.tpr -f 0_trajout.xtc -n CA.ndx -o rmsf.xvg -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+    2   0.1541
+   16   0.1028
+   23   0.0870
+   44   0.0752
+   54   0.0968
+   71   0.1026
+   86   0.1607
+  105   0.1485
+  119   0.1838
+  135   0.2261
+  155   0.1951
+  169   0.1528
+  185   0.1328
+  195   0.2727
+  202   0.2900
+  222   0.2644
+  229   0.2450
+  236   0.1465
+  260   0.1008
+  281   0.0655
+  291   0.0921
+  301   0.0953
+  325   0.1083
+  337   0.1126
+  348   0.0863
+  360   0.0754
+  378   0.1214
+  384   0.1656
+  391   0.1478
+  401   0.0889
+  411   0.0763
+  430   0.0540
+  440   0.0954
+  464   0.1798
