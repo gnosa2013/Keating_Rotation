@@ -1,0 +1,51 @@
+# This file was created Sun Nov 10 11:54:07 2024
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2018.4 (-:
+# 
+# Executable:   /home/software/gromacs/2018.4/bin/gmx_mpi
+# Data prefix:  /home/software/gromacs/2018.4
+# Working dir:  /nobackup1c/users/gnosa
+# Command line:
+#   gmx_mpi rmsf -s remd0.tpr -f 0_trajout.xtc -n CA.ndx -o rmsf.xvg -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+    2   0.1485
+   16   0.0977
+   23   0.0730
+   44   0.0782
+   54   0.1112
+   65   0.1347
+   86   0.1721
+   96   0.1538
+  124   0.1942
+  130   0.2135
+  146   0.2727
+  157   0.2741
+  169   0.2792
+  180   0.2515
+  194   0.1987
+  214   0.1680
+  230   0.1542
+  242   0.1175
+  254   0.0901
+  275   0.0727
+  285   0.1441
+  295   0.1281
+  319   0.1668
+  331   0.1725
+  342   0.1319
+  354   0.0935
+  372   0.1582
+  378   0.1968
+  385   0.1743
+  395   0.1155
+  406   0.0859
+  425   0.0563
+  435   0.1016
+  459   0.1626
