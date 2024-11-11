@@ -1,0 +1,51 @@
+# This file was created Wed Oct 30 10:13:14 2024
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2018.4 (-:
+# 
+# Executable:   /home/software/gromacs/2018.4/bin/gmx_mpi
+# Data prefix:  /home/software/gromacs/2018.4
+# Working dir:  /pool001/gnosa
+# Command line:
+#   gmx_mpi rmsf -s remd0.tpr -f 0_trajout.xtc -n CA.ndx -o rmsf.xvg -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+    2   0.1723
+   16   0.1273
+   23   0.0958
+   44   0.0790
+   54   0.1057
+   71   0.1294
+   78   0.2170
+   94   0.1395
+  118   0.2415
+  134   0.2905
+  153   0.2374
+  174   0.1784
+  198   0.1163
+  208   0.1840
+  225   0.1609
+  249   0.1767
+  264   0.1639
+  288   0.1086
+  304   0.0964
+  328   0.0726
+  338   0.1122
+  348   0.0966
+  372   0.1150
+  384   0.1276
+  395   0.0975
+  407   0.0733
+  425   0.1295
+  431   0.1744
+  438   0.1519
+  448   0.1001
+  458   0.0809
+  477   0.0582
+  487   0.0986
+  511   0.2011
